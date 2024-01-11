@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  r2dbc:
+    password: hh20020521
+    username: root
+    url: r2dbc:mysql://localhost:3306/test?serverZoneId=Asia/Shanghai
+    name: test
